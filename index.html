@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/bootstrap/css/form-validation.css" rel="stylesheet">
+    <title>Integração - chatgpt</title>
+</head>
+<body>
+    <body class="bg-light">
+        <div class="container">
+          <div class="py-5 text-center" style="padding: 20px;">
+            <img class="d-block mx-auto mb-4" src="imagens/logo.png" alt="" width="150" height="120">
+            <h2>ChatGPT</h2>  
+        </div>
+        <div class="col-md-10   order-md-1">
+            <form id="form-pergunta-chat" class="needs-validation">
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <label>Pergunta: </label>
+                        <textarea id="campo-pergunta" class="form-control" rows="10" cols="80" placeholder="Digite a pergunta"></textarea><br><br>
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-primary btn-lg btn-block" id="btn-pergunta-chat" value="Enviar"><br><br>
+            </form>
+        </div>
+        <p id="pergunta"></p>
+        <p id="resposta"></p>
+        <input type="hidden" id="btn-resposta" value=""><br><br>
+        <span id="conteudo"></span>
+    </div>
+    <script src="js/custom.js"></script>
+</body>
+</html>

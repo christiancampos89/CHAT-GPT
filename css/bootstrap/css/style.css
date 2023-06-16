@@ -1,0 +1,61 @@
+body, ul, li, p{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	font-size: 1.2rem;
+   font-family: Arial;
+}
+
+/*Documento CSS */
+
+table, th,td{
+   border: 1px solid #444;
+   border-collapse: collapse;
+   padding: 5px 2px;
+}
+th{
+   background-color: #264696;
+   color: #fff;
+}
+tr:hover{
+   background-color: #DAA520;
+}
+.funcionario{
+   display: inline-flex;
+   padding: 10px;
+}
+.txtvalor {
+   border: 4px dashed #189FDA;
+   height: 40px;
+   width: 110px;
+   text-align: center;
+   border: thin solid: #f1f1f1;
+   font-size: 18px;
+ }
+.totalreceber {
+   color: #008000;
+   font-family: bold;
+   font-size: 18px;
+}
+.totaldespesa {
+   color: #FF0000;
+   font-family: bold;
+   font-size: 18px;
+}
+.despesa {
+   color: #FF0000;
+}
+.btn-primary{
+   width: 85%;
+   margin: 15px;
+}
+.mes{
+
+   margin-left: 10px;
+   border: 4px solid #189FDA;
+   height: 60px;
+   width: 150px;
+   text-align: center;
+   font-size: 42px;
+
+}
